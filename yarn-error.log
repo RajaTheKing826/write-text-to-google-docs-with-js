@@ -1,0 +1,45 @@
+Arguments: 
+  /home/ib-tech-22/.volta/tools/image/node/14.18.1/bin/node /home/ib-tech-22/.volta/tools/image/yarn/1.22.17/bin/yarn.js add @googleapis
+
+PATH: 
+  /home/ib-tech-22/.volta/tools/image/yarn/1.22.17/bin:/home/ib-tech-22/.volta/tools/image/node/14.18.1/bin:/home/ib-tech-22/.volta/bin:/home/ib-tech-22/.yarn/bin:/home/ib-tech-22/.volta/bin:/home/ib-tech-22/.local/bin:/home/ib-tech-22/.volta/bin:/home/ib-tech-22/.yarn/bin:/home/ib-tech-22/.volta/bin:/home/ib-tech-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ib-tech-22/Android/Sdk/emulator:/home/ib-tech-22/Android/Sdk/tools:/home/ib-tech-22/Android/Sdk/tools/bin:/home/ib-tech-22/Android/Sdk/platform-tools:Home/flutter/bin:/home/ib-tech-22/Android/Sdk/emulator:/home/ib-tech-22/Android/Sdk/tools:/home/ib-tech-22/Android/Sdk/tools/bin:/home/ib-tech-22/Android/Sdk/platform-tools:Home/flutter/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@googleapis: Request "https://registry.npmjs.org/@googleapis" returned a 405
+      at Request.params.callback [as _callback] (/home/ib-tech-22/.volta/tools/image/yarn/1.22.17/lib/cli.js:67038:18)
+      at Request.self.callback (/home/ib-tech-22/.volta/tools/image/yarn/1.22.17/lib/cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/home/ib-tech-22/.volta/tools/image/yarn/1.22.17/lib/cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/home/ib-tech-22/.volta/tools/image/yarn/1.22.17/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "y",
+    "version": "y",
+    "description": "y",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "googleapis": "39.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
