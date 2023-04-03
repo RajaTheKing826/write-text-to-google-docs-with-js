@@ -118,7 +118,3 @@ getGoogleData().catch((e) => {
   console.error(e)
   throw e
 })
-
-// kukka-pilla <3
-
-// kukka-pilla <3
